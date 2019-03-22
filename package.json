@@ -1,0 +1,30 @@
+{
+  "name": "APP_NODE",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.8",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "ibm_db": "^2.5.0",
+    "ibm_db2": "^3.0.0",
+    "ibmiotf": "^0.2.41",
+    "morgan": "^1.9.1",
+    "serve-favicon": "^2.5.0",
+    "watson-developer-cloud": "^3.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
